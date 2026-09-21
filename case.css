@@ -24,3 +24,6 @@
 
 /* C5 case hierarchy; personal name stays black. */
 .detail-header a{color:#17191e}.detail h1{color:#17191e;max-width:18ch;line-height:1.02}.detail h2{margin-top:2.4rem;color:#b9231c}.detail{max-width:1000px}.detail p{max-width:72ch}.detail-header{border-bottom:1px solid #c5c9d0}
+
+/* Keep analytical tables readable within narrow case pages. */
+.detail{min-width:0}.detail table{display:block;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}.detail th,.detail td{white-space:normal}.detail a,.detail code{overflow-wrap:anywhere}
