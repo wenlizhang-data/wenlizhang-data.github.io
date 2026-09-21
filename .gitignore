@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.*
+private/
+raw/
+node_modules/
+FINAL_QA.md
+screenshots/

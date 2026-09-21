@@ -1,0 +1,18 @@
+{
+  "english_videos_under10": 15,
+  "english_video_min": 1,
+  "scoped_records": 33851,
+  "scoped_videos": 124,
+  "media": 7,
+  "min": 1,
+  "q1": 35.75,
+  "median": 148.5,
+  "q3": 456.25,
+  "max": 1096,
+  "mean": 272.991935483871,
+  "top5_records": 5079,
+  "top10_records": 9244,
+  "top5_share": 0.1500398806534519,
+  "top10_share": 0.27307908185873386,
+  "quantile_method": "pandas linear interpolation; one observation per scoped video"
+}

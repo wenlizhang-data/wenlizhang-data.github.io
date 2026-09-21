@@ -1,0 +1,8 @@
+stage,rows,excluded_from_previous
+Raw captured records,40187,0
+Nonmissing text,39490,697
+Alphabetic text,38848,642
+Valid video metadata,38848,0
+Distinct video-text records,38204,644
+Selected video publication window,33851,4353
+English-screened analytical records,27482,6369

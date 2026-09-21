@@ -1,0 +1,72 @@
+{
+  "raw_rows": 40187,
+  "raw_videos": 140,
+  "raw_media": 7,
+  "canonical_rows": 38204,
+  "canonical_videos": 140,
+  "canonical_date_min": "2009-01-07",
+  "canonical_date_max": "2023-12-02",
+  "window_rows": 33851,
+  "window_videos": 124,
+  "exclusions": {
+    "missing_or_nan_comment": 697,
+    "repeated_video_text_candidate": 644,
+    "no_alphabetic_text": 642
+  },
+  "config": {
+    "video_date_start": "2023-10-07",
+    "video_date_end": "2023-12-02",
+    "english_probability_min": 0.9,
+    "minimum_word_tokens": 3,
+    "sentiment_threshold": 0.1,
+    "language_seed": 0,
+    "review_sample_seed": 5507,
+    "review_status": "Analysis locked; final local publication candidate; not uploaded"
+  },
+  "versions": [
+    {
+      "version": "legacy_raw_workbook.xlsx",
+      "rows": 40187,
+      "missing_or_nan_comments": 697,
+      "exact_duplicate_extra_rows": 1338,
+      "exact_rows_shared_with_raw_csv_multiset": 40161,
+      "rows_not_exactly_matched_to_raw_csv": 26,
+      "nonstring_comment_cells": 35
+    },
+    {
+      "version": "legacy_cleaned_38366.csv",
+      "rows": 38366,
+      "missing_or_nan_comments": 89,
+      "exact_duplicate_extra_rows": 164,
+      "exact_rows_shared_with_raw_csv_multiset": 34015,
+      "rows_not_exactly_matched_to_raw_csv": 4351,
+      "nonstring_comment_cells": 0
+    },
+    {
+      "version": "legacy_report_39569.csv",
+      "rows": 39569,
+      "missing_or_nan_comments": 687,
+      "exact_duplicate_extra_rows": 1360,
+      "exact_rows_shared_with_raw_csv_multiset": 34454,
+      "rows_not_exactly_matched_to_raw_csv": 5115,
+      "nonstring_comment_cells": 0
+    }
+  ],
+  "analytical_rows": 27482,
+  "analytical_videos": 123,
+  "analytical_media": 7,
+  "language_screening_counts": {
+    "eligible_english": 27482,
+    "too_short": 2520,
+    "low_confidence_or_undetermined": 2428,
+    "predicted_non_english": 1421
+  },
+  "theme_covered_records": 1997,
+  "theme_coverage_share": 0.07266574485117532,
+  "mean_polarity": 0.05483047413752006,
+  "sentiment_counts": {
+    "Neutral": 14531,
+    "Positive": 8556,
+    "Negative": 4395
+  }
+}
